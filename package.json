@@ -1,0 +1,31 @@
+{
+  "name": "deferred-standalone",
+  "title": "Deferred Standalone",
+  "description": "A standalone implementation of the jQuery.Deferred interface",
+  "version": "0.9.0",
+  "homepage": "",
+  "author": {
+    "name": "",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mumakil/Standalone-Deferred"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Mumakil/Standalone-Deferred/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-coffee": "~0.6.4",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
