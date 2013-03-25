@@ -16,11 +16,16 @@ module.exports = function(grunt) {
     },
 
     uglify: {
+      options: {
+        mangle: {
+          except: ['Deferred']
+        }
+      },
       all: {
         options: {
           sourceMap: 'bin/Deferred.min.map',
-          sourceMappingURL: 'Deferred.min.map', // drop 1 directory from sourceMap
-          sourceMapRoot: 'src/', // the location to find your original source
+          sourceMappingURL: 'Deferred.min.map',
+          // sourceMapRoot: 'src/', // the location to find your original source
           sourceMapIn: 'bin/Deferred.map' // input sourcemap from a previous compilation
         },
         files: {
